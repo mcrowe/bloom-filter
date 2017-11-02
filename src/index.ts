@@ -1,3 +1,4 @@
-export function doSomething(a: number): number {
-  return a * 5
-}
+export { default as BloomFilter } from './filter'
+export { makeWithSize as BufferBackend } from './buffer-backend'
+export { default as DummyHasher } from './dummy-hasher'
+export { getOptimalParams } from './params'
